@@ -1,0 +1,11 @@
+
+what is unittest in python?
+
+unittest is a testing framework built into Python's standard library. It provides a set of tools for writing and running
+automated tests for Python code. The goal of unittest is to make it easy to write tests that are repeatable, maintainable,
+and scalable.
+
+With unittest, you can define test cases and test suites, which contain one or more test cases. A test case is a unit of
+testing that checks a specific behavior or function of your code. You can use a variety of assert methods to check that
+the output of your code matches the expected results.
+
