@@ -54,12 +54,23 @@ components of the system, so that you can identify and fix defects in a controll
 Both unittest and pytest are popular testing frameworks in Python used for unit testing. While they serve the same
 purpose, there are some differences between them.
 
-Syntax: unittest is a built-in testing framework in Python, while pytest is a third-party testing framework. The syntax of unittest is more verbose, and tests are typically defined in classes that inherit from unittest.TestCase. pytest uses a simpler and more concise syntax, and tests are typically defined as functions with names starting with "test_".
+Syntax: unittest is a built-in testing framework in Python, while pytest is a third-party testing framework. The syntax
+of unittest is more verbose, and tests are typically defined in classes that inherit from unittest.TestCase. pytest uses
+a simpler and more concise syntax, and tests are typically defined as functions with names starting with "test_".
 
-Test discovery: unittest requires you to explicitly define test suites and specify which tests to run. In contrast, pytest automatically discovers and runs all tests in a directory and its subdirectories by default.
+Test discovery: unittest requires you to explicitly define test suites and specify which tests to run. In contrast,
+pytest automatically discovers and runs all tests in a directory and its subdirectories by default.
 
-Assertions: unittest provides a set of built-in assertion methods, such as assertEqual() and assertTrue(). pytest also provides similar assertion methods, but it also includes more advanced assertion features, such as the ability to perform approximate comparisons and custom failure messages.
+Assertions: unittest provides a set of built-in assertion methods, such as assertEqual() and assertTrue(). pytest also
+provides similar assertion methods, but it also includes more advanced assertion features, such as the ability to perform
+approximate comparisons and custom failure messages.
 
-Fixtures: pytest includes a powerful fixture system that allows you to set up and tear down test environments easily. unittest provides similar functionality through its setUp() and tearDown() methods, but the fixture system in pytest is more flexible and easier to use.
+Fixtures: pytest includes a powerful fixture system that allows you to set up and tear down test environments easily.
+unittest provides similar functionality through its setUp() and tearDown() methods, but the fixture system in pytest is
+more flexible and easier to use.
 
-Plugins: pytest has a large ecosystem of plugins that can extend its functionality, such as plugins for code coverage analysis and test result reporting. unittest does not have a plugin ecosystem, and you need to rely on third-party libraries for similar functionality.
+Plugins: pytest has a large ecosystem of plugins that can extend its functionality, such as plugins for code coverage
+analysis and test result reporting. unittest does not have a plugin ecosystem, and you need to rely on third-party
+libraries for similar functionality.
+
+------------------------------------------------------------------------------------------------------------------------
