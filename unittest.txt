@@ -27,3 +27,15 @@ cycle, which can significantly reduce the cost and time required to fix them. It
 of the software by ensuring that each unit works as expected and integrates correctly with other units in the system.
 
 ------------------------------------------------------------------------------------------------------------------------
+
+In unit testing, isolation means testing individual units or components of the application in isolation from the rest of the system. This is typically achieved by mocking or stubbing out any external dependencies or interactions that the unit might have with other parts of the system.
+
+For example, if you have a function that makes a network request to retrieve some data, you would typically use a mocking library to simulate the network request and provide a fake response for the unit to work with during testing.
+
+In terms of implementation, isolation can be achieved using various techniques, including using classes and frameworks such as unittest in Python. The unittest framework provides a TestCase class that you can use to define test cases for individual units or components of your application.
+
+When using unittest, you would typically define a separate test class for each unit or component of your application that you want to test. Within each test class, you would define individual test methods that exercise specific behaviors or scenarios for that unit.
+
+For example, you might define a test_add() method within a CalculatorTestCase class that tests the behavior of the add() method of a Calculator class.
+
+Overall, the goal of isolation in unit testing is to ensure that each unit is tested independently of other units or components of the system, so that you can identify and fix defects in a controlled and predictable manner.
