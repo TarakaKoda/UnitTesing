@@ -1,3 +1,4 @@
+
 def add(a: int | float, b: int | float) -> int | float:
     """This function takes arguments of two numbers: int or float, and returns the addition of two numbers"""
     return a + b
@@ -15,7 +16,13 @@ def multiplication(a: int | float, b: int | float) -> int | float:
 
 def division(a: int | float, b: int | float) -> int | float:
     """This function takes arguments of two numbers: int or float, and return the division of two numbers"""
-    return a / b
+    if b == 0:
+        raise ValueError("B can't be zero")
+    else:
+        return a / b
+
+
+
 
 
 
